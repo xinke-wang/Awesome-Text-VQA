@@ -35,7 +35,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ### Technical Reports
 
-- <a name="M4C"></a> **[M4C]** Iterative Answer Prediction with Pointer-AugmentedMultimodal Transformers for TextVQA [[Report](https://arxiv.org/abs/1911.06258)]
+- <a name="M4C"></a> **[M4C]** Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA [[Report](https://arxiv.org/abs/1911.06258)]
 - <a name="DiagNet"></a> **[DiagNet]** DiagNet: Bridging Text and Image [[Report](http://www-personal.umich.edu/~syqian/2019/diagnet/diagnet.pdf)][[Code](https://github.com/w-yi/DiagNet)]
 - <a name="DCD-ZJU"></a> **[DCD_ZJU]** Winner of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1EZ8jrLTPLLKfwi0K28zq89tTe3ZZ-X8j/view)]
 - <a name="Schwail"></a> **[Schwail]** Runner-up of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1xNiEHj6J42F3CFx6fYjS9KDTsYTqAlN0/view)]
@@ -50,7 +50,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 **Only methods that have public available paper/code/description are listed here**
 
-### Text-VQA
+### Text-VQA ([[official leaderboard](https://evalai.cloudcv.org/web/challenges/challenge-page/244/leaderboard/810)])
 
 | Y-C./J. | Methods| Acc. | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
 | ------- | ------ | ---- | ----- | -------| --- | ----- | ------ | ------ |
@@ -58,7 +58,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | 2019--N/A| [DCD_ZJU](#DCD-ZJU) | 31.44 | Faster R-CNN | BERT | Rosetta-ml | FastText | Classification | Y |
 | 2019--arXiv | [M4C](#M4C) | **40.46** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
 
-### ST-VQA
+### ST-VQA ([[official leaderboard](https://rrc.cvc.uab.es/?ch=11&com=evaluation&task=1)])
 **T1** : Strongly Contextualised Task
 **T2** : Weakly Contextualised Task
 **T3** : Open Dictionary
