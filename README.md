@@ -50,7 +50,9 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 **Only methods that have public available paper/code/description are listed here**
 
-### Text-VQA ([[official leaderboard](https://evalai.cloudcv.org/web/challenges/challenge-page/244/leaderboard/810)])
+### Text-VQA
+
+[[official leaderboard](https://evalai.cloudcv.org/web/challenges/challenge-page/244/leaderboard/810)]
 
 | Y-C./J. | Methods| Acc. | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
 | ------- | ------ | ---- | ----- | -------| --- | ----- | ------ | ------ |
@@ -58,7 +60,9 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | 2019--N/A| [DCD_ZJU](#DCD-ZJU) | 31.44 | Faster R-CNN | BERT | Rosetta-ml | FastText | Classification | Y |
 | 2019--arXiv | [M4C](#M4C) | **40.46** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
 
-### ST-VQA ([[official leaderboard](https://rrc.cvc.uab.es/?ch=11&com=evaluation&task=1)])
+### ST-VQA
+
+[[official leaderboard](https://rrc.cvc.uab.es/?ch=11&com=evaluation&task=1)] <br>
 **T1** : Strongly Contextualised Task
 **T2** : Weakly Contextualised Task
 **T3** : Open Dictionary
