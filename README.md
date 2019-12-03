@@ -18,7 +18,8 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ### Technical Reports
 
-- <a name="M4C"></a> **[M4C]** Iterative Answer Prediction with Pointer-AugmentedMultimodal Transformers for TextVQA (**arXiv**)[[Paper](https://arxiv.org/abs/1911.06258)]
+- <a name="M4C"></a> **[M4C]** Iterative Answer Prediction with Pointer-AugmentedMultimodal Transformers for TextVQA [[Report](https://arxiv.org/abs/1911.06258)]
+- <a name="DiagNet"></a> **[DiagNet]** DiagNet: Bridging Text and Image [[Report](http://www-personal.umich.edu/~syqian/2019/diagnet/diagnet.pdf)][[Code](https://github.com/w-yi/DiagNet)]
 - <a name="DCD-ZJU"></a> **[DCD_ZJU]** Winner of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1EZ8jrLTPLLKfwi0K28zq89tTe3ZZ-X8j/view)]
 - <a name="Schwail"></a> **[Schwail]** Runner-up of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1xNiEHj6J42F3CFx6fYjS9KDTsYTqAlN0/view)]
 
