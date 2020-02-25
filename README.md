@@ -3,15 +3,18 @@
 Text related VQA is a fine-grained direction of the VQA task, which only focuses on the question that requires to read the textual content shown in the input image.
 
 ## Datasets
+- **STE-VQA** dataset (CVPR 2020) [Project(coming soon)][[Paper](https://arxiv.org/abs/2002.10215)](Paper will be updated for camera-ready version)
 - **Text-VQA** dataset (CVPR 2019) [[Project](https://textvqa.org/dataset)][[Paper](https://arxiv.org/abs/1904.08920)]
 - **ST-VQA** dataset (ICCV 2019) [[Project](https://rrc.cvc.uab.es/?ch=11)][[Paper](https://arxiv.org/abs/1905.13648)]
 - **OCR-VQA** dataset (ICDAR 2019) [[Project](https://ocr-vqa.github.io/)][[Paper](https://anandmishra22.github.io/files/mishra-OCR-VQA.pdf)]
 
-| Dataset | #Train+Val Img | #Train+Val Que | #Test Img | #Test Que | Image Source |
-| ------- | -------------- | -------------- | --------- | --------- | ------------ |
-| Text-VQA | 25,119        | 39,602         | 3,353     | 5,734     | [1]          |
-| ST-VQA   | 19,027        | 26,308         | 2,993     | 4,163     | [2, 3, 4, 5, 6, 7, 8] |
-| OCR-VQA  | 186,775       | 901,717        | 20,797    | 100,429   | [9]          |
+| Dataset | #Train+Val Img | #Train+Val Que | #Test Img | #Test Que | Image Source | Language |
+| ------- | -------------- | -------------- | --------- | --------- | ------------ | -------- |
+| Text-VQA | 25,119        | 39,602         | 3,353     | 5,734     | [1]          | EN |
+| ST-VQA   | 19,027        | 26,308         | 2,993     | 4,163     | [2, 3, 4, 5, 6, 7, 8] | EN |
+| OCR-VQA  | 186,775       | 901,717        | 20,797    | 100,429   | [9]          | EN |
+| STE-VQA  | 20,757        | 23,062         | 4,482     | 5,000     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
+
 
 **Image Source**: <br>
 [1] OpenImages: A public dataset for large-scale multi-label and multi-class image classification (v3) [[dataset](https://storage.googleapis.com/openimages/web/download.html)] <br>
@@ -23,8 +26,16 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 [7] Image retrieval using textual cues [[dataset](https://cvit.iiit.ac.in/research/projects/cvit-projects/image-retrieval-using-textual-cues)] <br>
 [8] Coco-text: Dataset and benchmark for text detection and recognition in natural images [[dataset](https://vision.cornell.edu/se3/coco-text-2/)] <br>
 [9] Judging a book by its cover [[dataset](https://github.com/uchidalab/book-dataset)] <br>
+[10] Total Text [[dataset](https://github.com/cs-chan/Total-Text-Dataset)] <br>
+[11] SCUT-CTW1500 [[dataset](https://github.com/Yuliang-Liu/Curve-Text-Detector)] <br>
+[12] MLT [[dataset](https://rrc.cvc.uab.es/?ch=8)] <br>
+[13] Chinese Street View Text [[dataset](https://rrc.cvc.uab.es/?ch=16)] <br>
+
 
 ## Papers
+
+### 2020
+- <a name="LoRRA"></a> **[STE-VQA]** On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering (**CVPR**) [[Paper](https://arxiv.org/abs/1904.08920)]
 
 ### 2019
 - <a name="LoRRA"></a> **[Text-VQA/LoRRA]** Towards VQA Models That Can Read (**CVPR**) [[Paper](https://arxiv.org/abs/1904.08920)][[Code](https://github.com/facebookresearch/pythia)]
