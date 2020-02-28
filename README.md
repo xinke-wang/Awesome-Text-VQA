@@ -31,11 +31,14 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 [12] MLT [[dataset](https://rrc.cvc.uab.es/?ch=8)] <br>
 [13] Chinese Street View Text [[dataset](https://rrc.cvc.uab.es/?ch=16)] <br>
 
+## Related Challenges
+
+**Document Visual Question Answering** （*CVPR 2020 Workshop on Text and Documents in the Deep Learning Era* Submission Deadline: **30 April 2020** [[Challenge]](https://rrc.cvc.uab.es/?ch=17)
 
 ## Papers
 
 ### 2020
-- <a name="LoRRA"></a> **[STE-VQA]** On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering (**CVPR**) [[Paper](https://arxiv.org/abs/1904.08920)]
+- <a name="LoRRA"></a> **[STE-VQA]** On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering (**CVPR**) [[Paper](https://arxiv.org/abs/2002.10215)]
 - <a name="M4C"></a> **[M4C]** Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA (**CVPR**) [[Paper](https://arxiv.org/abs/1911.06258)][[Project](https://ronghanghu.com/m4c/)]
 
 ### 2019
