@@ -62,7 +62,6 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 **O. E.** : OCR Token Encoder
 **Ensem.** : Ensemble
 
-**Only methods that have public available paper/code/description are listed here**
 
 ### Text-VQA
 
