@@ -3,7 +3,7 @@
 Text related VQA is a fine-grained direction of the VQA task, which only focuses on the question that requires to read the textual content shown in the input image.
 
 ## Datasets
-- **STE-VQA** dataset (CVPR 2020) [Project(coming soon)][[Paper](https://arxiv.org/abs/2002.10215)](Paper will be updated for camera-ready version)
+- **EST-VQA** dataset (CVPR 2020) [[Project](http://est-vqa.org/)][[Paper](https://arxiv.org/abs/2002.10215)]
 - **Text-VQA** dataset (CVPR 2019) [[Project](https://textvqa.org/dataset)][[Paper](https://arxiv.org/abs/1904.08920)]
 - **ST-VQA** dataset (ICCV 2019) [[Project](https://rrc.cvc.uab.es/?ch=11)][[Paper](https://arxiv.org/abs/1905.13648)]
 - **OCR-VQA** dataset (ICDAR 2019) [[Project](https://ocr-vqa.github.io/)][[Paper](https://anandmishra22.github.io/files/mishra-OCR-VQA.pdf)]
@@ -66,13 +66,19 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ### Text-VQA
 
-[[official leaderboard](https://evalai.cloudcv.org/web/challenges/challenge-page/244/leaderboard/810)]
+[[official leaderboard(2019)](https://evalai.cloudcv.org/web/challenges/challenge-page/244/leaderboard/810)]
+[[official leaderboard(2020)](https://evalai.cloudcv.org/web/challenges/challenge-page/551/leaderboard/1575)]
 
 | Y-C./J. | Methods| Acc. | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
 | ------- | ------ | ---- | ----- | -------| --- | ----- | ------ | ------ |
 | 2019--CVPR | [LoRRA](#LoRRA) | 26.64 | Faster R-CNN | GloVe | Rosetta-ml | FastText | Classification | N |
 | 2019--N/A| [DCD_ZJU](#DCD-ZJU) | 31.44 | Faster R-CNN | BERT | Rosetta-ml | FastText | Classification | Y |
-| 2019--arXiv | [M4C](#M4C) | **40.46** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
+| 2020--CVPR | [M4C](#M4C) | **40.46** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
+| 2020--Challenge | Xiangpeng | **40.77** |  |  | | | | |
+| 2020--Challenge | colab_buaa | **44.73** | | | | | | |
+| 2020--Challenge | CVMLP(SAM) | **44.80** | | | | | | |
+| 2020--Challenge | NWPU_Adelaide_Team(SMA) | **45.51** | | | | | | |
+
 
 ### ST-VQA
 
@@ -83,11 +89,13 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 | Y-C./J. | Methods| Acc. (T1/T2/T3) | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
 | ------- | ------ | --------------- | ----- | -------| --- | ----- | ------ | ------ |
-| 2019--arXiv | [M4C](#M4C) | **na/na/0.4621** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
+| 2020--CVPR | [M4C](#M4C) | **na/na/0.4621** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
+| 2020--Challenge | SMA | **0.5081/0.3104/0.4659** | | | |  |  |  |
+| 2020--Challenge | CVMLP(SAM) | **na/na/0.5042** | | | |  |  |  |
 
 ### OCR-VQA
 
 | Y-C./J. | Methods| Acc. | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
 | ------- | ------ | ---- | ----- | -------| --- | ----- | ------ | ------ |
-| 2019--arXiv | [M4C](#M4C) | **63.9** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
+| 2020--CVPR | [M4C](#M4C) | **63.9** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
 
