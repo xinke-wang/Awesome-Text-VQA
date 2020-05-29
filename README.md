@@ -13,7 +13,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | Text-VQA | 25,119        | 39,602         | 3,353     | 5,734     | [1]          | EN |
 | ST-VQA   | 19,027        | 26,308         | 2,993     | 4,163     | [2, 3, 4, 5, 6, 7, 8] | EN |
 | OCR-VQA  | 186,775       | 901,717        | 20,797    | 100,429   | [9]          | EN |
-| STE-VQA  | 20,757        | 23,062         | 4,482     | 5,000     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
+| EST-VQA  | 20,757        | 23,062         | 4,482     | 5,000     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
 
 
 **Image Source**: <br>
