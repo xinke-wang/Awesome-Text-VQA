@@ -38,7 +38,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 ## Papers
 
 ### 2020
-- <a name="LoRRA"></a> **[STE-VQA]** On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering (**CVPR**) [[Paper](https://arxiv.org/abs/2002.10215)]
+- <a name="LoRRA"></a> **[EST-VQA]** On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering (**CVPR**) [[Paper](https://arxiv.org/abs/2002.10215)]
 - <a name="M4C"></a> **[M4C]** Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA (**CVPR**) [[Paper](https://arxiv.org/abs/1911.06258)][[Project](https://ronghanghu.com/m4c/)]
 
 ### 2019
@@ -73,11 +73,11 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | ------- | ------ | ---- | ----- | -------| --- | ----- | ------ | ------ |
 | 2019--CVPR | [LoRRA](#LoRRA) | 26.64 | Faster R-CNN | GloVe | Rosetta-ml | FastText | Classification | N |
 | 2019--N/A| [DCD_ZJU](#DCD-ZJU) | 31.44 | Faster R-CNN | BERT | Rosetta-ml | FastText | Classification | Y |
-| 2020--CVPR | [M4C](#M4C) | **40.46** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
-| 2020--Challenge | Xiangpeng | **40.77** |  |  | | | | |
-| 2020--Challenge | colab_buaa | **44.73** | | | | | | |
-| 2020--Challenge | CVMLP(SAM) | **44.80** | | | | | | |
-| 2020--Challenge | NWPU_Adelaide_Team(SMA) | **45.51** | | | | | | |
+| 2020--CVPR | [M4C](#M4C) | 40.46 | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
+| 2020--Challenge | Xiangpeng | 40.77 |  |  | | | | |
+| 2020--Challenge | colab_buaa | 44.73 | | | | | | |
+| 2020--Challenge | CVMLP(SAM) | 44.80 | | | | | | |
+| 2020--Challenge | NWPU_Adelaide_Team(SMA) | 45.51 | | | | | | |
 
 
 ### ST-VQA
@@ -89,9 +89,9 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 | Y-C./J. | Methods| Acc. (T1/T2/T3) | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
 | ------- | ------ | --------------- | ----- | -------| --- | ----- | ------ | ------ |
-| 2020--CVPR | [M4C](#M4C) | **na/na/0.4621** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
-| 2020--Challenge | SMA | **0.5081/0.3104/0.4659** | | | |  |  |  |
-| 2020--Challenge | CVMLP(SAM) | **na/na/0.5042** | | | |  |  |  |
+| 2020--CVPR | [M4C](#M4C) | na/na/0.4621 | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
+| 2020--Challenge | SMA | **0.5081**/**0.3104**/0.4659 | | | |  |  |  |
+| 2020--Challenge | CVMLP(SAM) | na/na/**0.5042** | | | |  |  |  |
 
 ### OCR-VQA
 
