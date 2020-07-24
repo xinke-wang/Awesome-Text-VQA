@@ -72,14 +72,14 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 | Y-C./J. | Methods| Acc. | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
 | ------- | ------ | ---- | ----- | -------| --- | ----- | ------ | ------ |
-| 2019--CVPR | [LoRRA](#LoRRA) | 26.64 | Faster R-CNN | GloVe | Rosetta-ml | FastText | Classification | N |
+| 2019--CVPR | [LoRRA](#LoRRA) | 26.64 | Faster R-CNN | GloVe | [Rosetta-ml](https://arxiv.org/pdf/1910.05085.pdf) | FastText | Classification | N |
 | 2019--N/A| [DCD_ZJU](#DCD-ZJU) | 31.44 | Faster R-CNN | BERT | Rosetta-ml | FastText | Classification | Y |
 | 2020--CVPR | [M4C](#M4C) | 40.46 | Faster R-CNN (ResNet-101)| BERT | Rosetta-en | FastText | Decoder | N |
 | 2020--Challenge | Xiangpeng | 40.77 |  |  | | | | |
 | 2020--Challenge | colab_buaa | 44.73 | | | | | | |
 | 2020--Challenge | CVMLP(SAM) | 44.80 | | | | | | |
-| 2020--Challenge | [NWPU_Adelaide_Team(SMA)](#SMA) | 45.51 | | | | | | |
-| 2020--ECCV| [SA-M4C](#SA-M4C) | 44.6* | Faster R-CNN (ResNext-152) | BERT | Google-OCR | FastText+PHOC | Decoder | N |
+| 2020--Challenge | [NWPU_Adelaide_Team(SMA)](#SMA) | 45.51 | Faster R-CNN | BERT | [BDN](https://arxiv.org/pdf/1912.09629.pdf) | Graph Attention | Decoder | N |
+| 2020--ECCV| [SA-M4C](#SA-M4C) | 44.6* | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
 
 \* Using external data for training.
 
@@ -93,9 +93,9 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 | Y-C./J. | Methods| Acc. (T1/T2/T3) | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
 | ------- | ------ | --------------- | ----- | -------| --- | ----- | ------ | ------ |
-| 2020--CVPR | [M4C](#M4C) | na/na/0.4621 | Faster R-CNN (ResNet-101) | BERT | Rosetta-en | FastText | Decoder | N |
-| 2020--Challenge | SMA | **0.5081**/**0.3104**/0.4659 | | | |  |  |  |
-| 2020--ECCV | [SA-M4C](#SA-M4C) | na/na/**0.5042** | Faster R-CNN (ResNext-152) | BERT | Google-OCR | FastText+PHOC | Decoder | N |
+| 2020--CVPR | [M4C](#M4C) | na/na/0.4621 | Faster R-CNN (ResNet-101) | BERT | [Rosetta-en](https://arxiv.org/pdf/1910.05085.pdf) | FastText | Decoder | N |
+| 2020--Challenge | SMA | **0.5081**/**0.3104**/0.4659 | Faster | BERT | [BDN](https://arxiv.org/pdf/1912.09629.pdf) | Graph Attention | Decoder | N |
+| 2020--ECCV | [SA-M4C](#SA-M4C) | na/na/**0.5042** | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
 
 ### OCR-VQA
 
