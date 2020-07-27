@@ -4,6 +4,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ## Datasets
 - **EST-VQA** dataset (CVPR 2020) [[Project](http://est-vqa.org/)][[Paper](https://arxiv.org/abs/2002.10215)]
+- **DOC-VQA** dataset (CVPR Workshop 2020) [[Project](https://rrc.cvc.uab.es/?ch=17)][[Paper](https://arxiv.org/abs/2007.00398)]
 - **Text-VQA** dataset (CVPR 2019) [[Project](https://textvqa.org/dataset)][[Paper](https://arxiv.org/abs/1904.08920)]
 - **ST-VQA** dataset (ICCV 2019) [[Project](https://rrc.cvc.uab.es/?ch=11)][[Paper](https://arxiv.org/abs/1905.13648)]
 - **OCR-VQA** dataset (ICDAR 2019) [[Project](https://ocr-vqa.github.io/)][[Paper](https://anandmishra22.github.io/files/mishra-OCR-VQA.pdf)]
@@ -14,6 +15,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | ST-VQA   | 19,027        | 26,308         | 2,993     | 4,163     | [2, 3, 4, 5, 6, 7, 8] | EN |
 | OCR-VQA  | 186,775       | 901,717        | 20,797    | 100,429   | [9]          | EN |
 | EST-VQA  | 20,757        | 23,062         | 4,482     | 5,000     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
+| DOC-VQA  | 11,480        | 44,812         | 1,287     | 5,188     | [14] | EN+CH |
 
 
 **Image Source**: <br>
@@ -30,6 +32,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 [11] SCUT-CTW1500 [[dataset](https://github.com/Yuliang-Liu/Curve-Text-Detector)] <br>
 [12] MLT [[dataset](https://rrc.cvc.uab.es/?ch=8)] <br>
 [13] Chinese Street View Text [[dataset](https://rrc.cvc.uab.es/?ch=16)] <br>
+[14] UCSF Industry Document Library [[dataset](https://www.industrydocuments.ucsf.edu/)] <br>
 
 ## Related Challenges
 
@@ -51,7 +54,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ### Technical Reports
 
-- <a name="SMA"></a> **[SMA]** Structured Multimodal Attentions for TextVQA [[Report](https://arxiv.org/pdf/2006.00753.pdf)][Slides](https://drive.google.com/file/d/1tJ9yK6U6fNkMAV-vLzWPzihaKB80KnsH/view)[Video](https://www.youtube.com/watch?v=61abzUHhmfw&feature=youtu.be)
+- <a name="SMA"></a> **[SMA]** Structured Multimodal Attentions for TextVQA [[Report](https://arxiv.org/pdf/2006.00753.pdf)][[Slides](https://drive.google.com/file/d/1tJ9yK6U6fNkMAV-vLzWPzihaKB80KnsH/view)][[Video](https://www.youtube.com/watch?v=61abzUHhmfw&feature=youtu.be)]
 - <a name="DiagNet"></a> **[DiagNet]** DiagNet: Bridging Text and Image [[Report](http://www-personal.umich.edu/~syqian/2019/diagnet/diagnet.pdf)][[Code](https://github.com/w-yi/DiagNet)]
 - <a name="DCD-ZJU"></a> **[DCD_ZJU]** Winner of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1EZ8jrLTPLLKfwi0K28zq89tTe3ZZ-X8j/view)]
 - <a name="Schwail"></a> **[Schwail]** Runner-up of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1xNiEHj6J42F3CFx6fYjS9KDTsYTqAlN0/view)]
