@@ -57,6 +57,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ### Technical Reports
 
+- <a name="RUArt"></a> **[RUArt]** RUArt: A Novel Text-Centered Solution for Text-Based Visual Question Answering [[Report](https://arxiv.org/pdf/2010.12917.pdf)]
 - <a name="SMA"></a> **[SMA]** Structured Multimodal Attentions for TextVQA [[Report](https://arxiv.org/pdf/2006.00753.pdf)][[Slides](https://drive.google.com/file/d/1tJ9yK6U6fNkMAV-vLzWPzihaKB80KnsH/view)][[Video](https://www.youtube.com/watch?v=61abzUHhmfw&feature=youtu.be)]
 - <a name="DiagNet"></a> **[DiagNet]** DiagNet: Bridging Text and Image [[Report](http://www-personal.umich.edu/~syqian/2019/diagnet/diagnet.pdf)][[Code](https://github.com/w-yi/DiagNet)]
 - <a name="DCD-ZJU"></a> **[DCD_ZJU]** Winner of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1EZ8jrLTPLLKfwi0K28zq89tTe3ZZ-X8j/view)]
