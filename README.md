@@ -14,8 +14,8 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | Text-VQA | 25,119        | 39,602         | 3,353     | 5,734     | [1]          | EN |
 | ST-VQA   | 19,027        | 26,308         | 2,993     | 4,163     | [2, 3, 4, 5, 6, 7, 8] | EN |
 | OCR-VQA  | 186,775       | 901,717        | 20,797    | 100,429   | [9]          | EN |
-| EST-VQA  | 20,757        | 23,062         | 4,482     | 5,000     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
-| DOC-VQA  | 11,480        | 44,812         | 1,287     | 5,188     | [14] | EN+CH |
+| EST-VQA  | 17,047        | 19,362         | 4,000     | 4,525     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
+| DOC-VQA  | 11,480        | 44,812         | 1,287     | 5,188     | [14] | EN |
 
 
 **Image Source**: <br>
@@ -38,7 +38,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 
 
-**ICDAR 2021 COMPETITION On Document Visual Question Answering (DocVQA)** [[Challenge](https://icdar2021.org/program-2/competitions/docvqa/)]<br>
+**ICDAR 2021 COMPETITION On Document Visual Question Answering (DocVQA)** Submission Deadline:  31st March 2021 [[Challenge](https://icdar2021.org/program-2/competitions/docvqa/)]<br>
 **Document Visual Question Answering** （*CVPR 2020 Workshop on Text and Documents in the Deep Learning Era* Submission Deadline: ~~30 April 2020~~ [[Challenge]](https://rrc.cvc.uab.es/?ch=17)
 
 ## Papers
@@ -91,7 +91,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | 2020--Challenge | CVMLP(SAM) | 44.80 | | | | | | |
 | 2020--Challenge | [NWPU_Adelaide_Team(SMA)](#SMA) | 45.51 | Faster R-CNN | BERT | [BDN](https://arxiv.org/pdf/1912.09629.pdf) | Graph Attention | Decoder | N |
 | 2020--ECCV| [SA-M4C](#SA-M4C) | 44.6* | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
-| 2020--arXiv| [TAP](#TAP) | 53.97* | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
+| 2020--arXiv| [TAP](#TAP) | 53.97* | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
 
 \* Using external data for training.
 
@@ -108,7 +108,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | 2020--CVPR | [M4C](#M4C) | na/na/0.4621 | Faster R-CNN (ResNet-101) | BERT | [Rosetta-en](https://arxiv.org/pdf/1910.05085.pdf) | FastText | Decoder | N |
 | 2020--Challenge | SMA | **0.5081**/**0.3104**/0.4659 | Faster | BERT | [BDN](https://arxiv.org/pdf/1912.09629.pdf) | Graph Attention | Decoder | N |
 | 2020--ECCV | [SA-M4C](#SA-M4C) | na/na/**0.5042** | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
-| 2020--arXiv | [TAP](#TAP) | na/na/**0.5967** | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
+| 2020--arXiv | [TAP](#TAP) | na/na/**0.5967** | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
 
 ### OCR-VQA
 
