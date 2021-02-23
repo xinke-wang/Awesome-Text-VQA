@@ -44,7 +44,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 ## Papers
 
 ### 2020
-- <a name="SA-M4C"></a> **[SA-M4C]** Spatially Aware MultimodalTransformers for TextVQA (**ECCV**) [[Paper](https://arxiv.org/pdf/2007.12146.pdf)]
+- <a name="SA-M4C"></a> **[SA-M4C]** Spatially Aware MultimodalTransformers for TextVQA (**ECCV**) [[Paper](https://arxiv.org/pdf/2007.12146.pdf)][[Project](https://yashkant.github.io/projects/sam-textvqa)][[Code](https://github.com/yashkant/sam-textvqa)]
 - <a name="LoRRA"></a> **[EST-VQA]** On the General Value of Evidence, and Bilingual Scene-Text Visual Question Answering (**CVPR**) [[Paper](https://arxiv.org/abs/2002.10215)]
 - <a name="M4C"></a> **[M4C]** Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA (**CVPR**) [[Paper](https://arxiv.org/abs/1911.06258)][[Project](https://ronghanghu.com/m4c/)]
 - <a name="LaAP-Net"></a> **[LaAP-Net]** Finding the Evidence: Localization-aware Answer Prediction for TextVisual Question Answering (**COLING**) [[Paper](https://arxiv.org/abs/2010.02582)]
