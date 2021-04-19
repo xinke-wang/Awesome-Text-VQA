@@ -17,7 +17,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | OCR-VQA  | 186,775       | 901,717        | 20,797    | 100,429   | [9]          | EN |
 | EST-VQA  | 17,047        | 19,362         | 4,000     | 4,525     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
 | DOC-VQA  | 11,480        | 44,812         | 1,287     | 5,188     | [14] | EN |
-| VisualMRC|               | 23,854         |           | 6,708     | self-collected webpage screenshot | EN |
+| VisualMRC| 7,960         | 23,854         | 2,237     | 6,708     | self-collected webpage screenshot | EN |
 
 
 **Image Source**: <br>
