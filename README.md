@@ -45,6 +45,9 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ## Papers
 
+### 2022
+- <a name="TAG"></a> **[TAG]** TAG: Boosting Text-VQA via Text-aware Visual Question-answer Generation (**arXiv**) [[Paper](https://arxiv.org/abs/2208.01813)][[Project](https://github.com/HenryJunW/TAG)]
+
 ### 2021
 - <a name="VisualMRC"></a> **[VisualMRC]** VisualMRC: Machine Reading Comprehension on Document Images (**AAAI**) [[Paper](https://arxiv.org/pdf/2101.11272.pdf)][[Project](https://github.com/nttmdlab-nlp/VisualMRC)]
 - <a name="SSBaseline"></a> **[SSBaseline]** Simple is not Easy: A Simple Strong Baseline for TextVQA and TextCaps (**AAAI**) [[Paper](https://arxiv.org/pdf/2012.05153.pdf)][[code](https://github.com/ZephyrZhuQi/ssbaseline)]
@@ -98,6 +101,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | 2020--Challenge | [NWPU_Adelaide_Team(SMA)](#SMA) | 45.51 | Faster R-CNN | BERT | [BDN](https://arxiv.org/pdf/1912.09629.pdf) | Graph Attention | Decoder | N |
 | 2020--ECCV| [SA-M4C](#SA-M4C) | 44.6* | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
 | 2020--arXiv| [TAP](#TAP) | 53.97* | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
+| 2022--arXiv| [TAG](#TAG) | 53.63 | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
 
 \* Using external data for training.
 
@@ -115,6 +119,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | 2020--Challenge | SMA | **0.5081**/**0.3104**/0.4659 | Faster | BERT | [BDN](https://arxiv.org/pdf/1912.09629.pdf) | Graph Attention | Decoder | N |
 | 2020--ECCV | [SA-M4C](#SA-M4C) | na/na/**0.5042** | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
 | 2020--arXiv | [TAP](#TAP) | na/na/**0.5967** | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
+| 2022--arXiv | [TAG](#TAG) | na/na/**0.6019** | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
 
 ### OCR-VQA
 
