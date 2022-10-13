@@ -3,6 +3,7 @@
 Text related VQA is a fine-grained direction of the VQA task, which only focuses on the question that requires to read the textual content shown in the input image.
 
 ## Datasets
+- **ViteVQA** dataset (NeurIPS 2022) [[Project](https://github.com/bytedance/VTVQA)][[Paper]](https://openreview.net/pdf?id=yPZ7w29qSNK)
 - **VisualMRC** dataset (AAAI 2021) [[Project](https://github.com/nttmdlab-nlp/VisualMRC)][[Paper](https://arxiv.org/abs/2101.11272)]
 - **EST-VQA** dataset (CVPR 2020) [[Project](http://est-vqa.org/)][[Paper](https://arxiv.org/abs/2002.10215)]
 - **DOC-VQA** dataset (CVPR Workshop 2020) [[Project](https://rrc.cvc.uab.es/?ch=17)][[Paper](https://arxiv.org/abs/2007.00398)]
@@ -18,6 +19,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 | EST-VQA  | 17,047        | 19,362         | 4,000     | 4,525     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
 | DOC-VQA  | 11,480        | 44,812         | 1,287     | 5,188     | [14] | EN |
 | VisualMRC| 7,960         | 23,854         | 2,237     | 6,708     | self-collected webpage screenshot | EN |
+| ViteVQA(Task1Spilt1)| 5,969         | 19,840         | 971     | 3,183     | YouTuBe | EN |
 
 
 **Image Source**: <br>
@@ -47,6 +49,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ### 2022
 - <a name="TAG"></a> **[TAG]** TAG: Boosting Text-VQA via Text-aware Visual Question-answer Generation (**arXiv**) [[Paper](https://arxiv.org/abs/2208.01813)][[Project](https://github.com/HenryJunW/TAG)]
+- <a name="ViteVQA"></a> **[ViteVQA]** Towards Video Text Visual Question Answering: Benchmark and Baseline (**NeurIPS**) [[Paper](https://openreview.net/pdf?id=yPZ7w29qSNK)][[Project](https://github.com/bytedance/VTVQA)]
 
 ### 2021
 - <a name="VisualMRC"></a> **[VisualMRC]** VisualMRC: Machine Reading Comprehension on Document Images (**AAAI**) [[Paper](https://arxiv.org/pdf/2101.11272.pdf)][[Project](https://github.com/nttmdlab-nlp/VisualMRC)]
