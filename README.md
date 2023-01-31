@@ -3,6 +3,7 @@
 Text related VQA is a fine-grained direction of the VQA task, which only focuses on the question that requires to read the textual content shown in the input image.
 
 ## Datasets
+- **NewsVideoQA** dataset (WACV2023) [[Project](https://rrc.cvc.uab.es/?ch=24&com=introduction)][[Paper]](https://arxiv.org/pdf/2211.05588.pdf)
 - **ViteVQA** dataset (NeurIPS 2022) [[Project](https://github.com/bytedance/VTVQA)][[Paper]](https://openreview.net/pdf?id=yPZ7w29qSNK)
 - **VisualMRC** dataset (AAAI 2021) [[Project](https://github.com/nttmdlab-nlp/VisualMRC)][[Paper](https://arxiv.org/abs/2101.11272)]
 - **EST-VQA** dataset (CVPR 2020) [[Project](http://est-vqa.org/)][[Paper](https://arxiv.org/abs/2002.10215)]
@@ -11,15 +12,15 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 - **ST-VQA** dataset (ICCV 2019) [[Project](https://rrc.cvc.uab.es/?ch=11)][[Paper](https://arxiv.org/abs/1905.13648)]
 - **OCR-VQA** dataset (ICDAR 2019) [[Project](https://ocr-vqa.github.io/)][[Paper](https://anandmishra22.github.io/files/mishra-OCR-VQA.pdf)]
 
-| Dataset | #Train+Val Img | #Train+Val Que | #Test Img | #Test Que | Image Source | Language |
-| ------- | -------------- | -------------- | --------- | --------- | ------------ | -------- |
-| Text-VQA | 25,119        | 39,602         | 3,353     | 5,734     | [1]          | EN |
-| ST-VQA   | 19,027        | 26,308         | 2,993     | 4,163     | [2, 3, 4, 5, 6, 7, 8] | EN |
-| OCR-VQA  | 186,775       | 901,717        | 20,797    | 100,429   | [9]          | EN |
-| EST-VQA  | 17,047        | 19,362         | 4,000     | 4,525     | [4, 5, 8, 10, 11, 12, 13] | EN+CH |
-| DOC-VQA  | 11,480        | 44,812         | 1,287     | 5,188     | [14] | EN |
-| VisualMRC| 7,960         | 23,854         | 2,237     | 6,708     | self-collected webpage screenshot | EN |
-| ViteVQA(Task1Spilt1)| 5,969         | 19,840         | 971     | 3,183     | YouTuBe | EN |
+| Dataset              | #Train+Val Img | #Train+Val Que | #Test Img | #Test Que | Image Source                      | Language |
+| -------------------- | -------------- | -------------- | --------- | --------- | --------------------------------- | -------- |
+| Text-VQA             | 25,119         | 39,602         | 3,353     | 5,734     | [1]                               | EN       |
+| ST-VQA               | 19,027         | 26,308         | 2,993     | 4,163     | [2, 3, 4, 5, 6, 7, 8]             | EN       |
+| OCR-VQA              | 186,775        | 901,717        | 20,797    | 100,429   | [9]                               | EN       |
+| EST-VQA              | 17,047         | 19,362         | 4,000     | 4,525     | [4, 5, 8, 10, 11, 12, 13]         | EN+CH    |
+| DOC-VQA              | 11,480         | 44,812         | 1,287     | 5,188     | [14]                              | EN       |
+| VisualMRC            | 7,960          | 23,854         | 2,237     | 6,708     | self-collected webpage screenshot | EN       |
+| ViteVQA(Task1Spilt1) | 5,969          | 19,840         | 971       | 3,183     | YouTuBe                           | EN       |
 
 
 **Image Source**: <br>
@@ -47,9 +48,27 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 
 ## Papers
 
+### 2023
+- <a name="RUArt"></a> **[RUArt]** RUArt: A Novel Text-Centered Solution for Text-Based Visual Question Answering(**T-MM**) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9583957)][[Project](https://github.com/xiaojino/RUArt)]
+- <a name="BOV++"></a> **[BOV++]** Beyond OCR + VQA: Towards end-to-end reading and reasoning for robust and accurate textvqa (**PR**) [[Paper](https://www.sciencedirect.com/science/article/pii/S0031320323000389)]
+
 ### 2022
-- <a name="TAG"></a> **[TAG]** TAG: Boosting Text-VQA via Text-aware Visual Question-answer Generation (**arXiv**) [[Paper](https://arxiv.org/abs/2208.01813)][[Project](https://github.com/HenryJunW/TAG)]
+- <a name="TAG"></a> **[TAG]** TAG: Boosting Text-VQA via Text-aware Visual Question-answer Generation (**PR**) [[Paper](https://arxiv.org/abs/2208.01813)][[Project](https://github.com/HenryJunW/TAG)]
 - <a name="ViteVQA"></a> **[ViteVQA]** Towards Video Text Visual Question Answering: Benchmark and Baseline (**NeurIPS**) [[Paper](https://openreview.net/pdf?id=yPZ7w29qSNK)][[Project](https://github.com/bytedance/VTVQA)]
+- <a name="LaTr"></a> **[LaTr]** LaTr: Layout-Aware Transformer for Scene-Text VQA (**CVPR**) [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Biten_LaTr_Layout-Aware_Transformer_for_Scene-Text_VQA_CVPR_2022_paper.pdf)[[Unofficial Code]](https://github.com/uakarsh/latr)
+- <a name="TIG"></a> **[TIG]** Text-instance graph: Exploring the relational semantics for text-based visual question answering (**PR**)[[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320321006312)
+- <a name="SMA"></a> **[SMA]** Structured Multimodal Attentions for TextVQA (**T-PAMI**)[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9633153)[[Project]](https://github.com/ChenyuGAO-CS/SMA)
+- <a name="DA-Net"></a> **[DA-Net]** Toward 3D Spatial Reasoning for Human-like Text-based Visual Question Answering (**arXiv**)[[Paper]](https://arxiv.org/pdf/2209.10326.pdf)
+- <a name="SenseGATE"></a> **[SenseGATE]** SceneGATE: Scene-Graph based co-Attention networks for TExt visual question answering (**arXiv**)[[Paper]](https://arxiv.org/pdf/2212.08283.pdf)
+- <a name="MLCI"></a> **[MLCI]** Multi-level, multi-modal interactions for visual question answering over text in images (**WWW**)[[Paper]](https://link.springer.com/article/10.1007/s11280-021-00976-2)[[Project]](https://github.com/zhangshengHust/mlci)
+- <a name="TWA"></a> **[TWA]** From Token to Word: OCR Token Evolution via Contrastive Learning and Semantic Matching for Text-VQA (**ACMMM**)[[Paper]](https://dl.acm.org/doi/pdf/10.1145/3503161.3547977)[[Project]](https://github.com/xiaojino/TWA)
+- <a name="TAG"></a> **[TAG]** TAG: Boosting Text-VQA via Text-aware
+Visual Question-answer Generation (**BMVC**)[[Paper]](https://arxiv.org/pdf/2208.01813.pdf)[[Project]](https://github.com/HenryJunW/TAG)
+- <a name="MGEN"></a> **[MGEN]** MODALITY-SPECIFIC MULTIMODAL GLOBAL ENHANCED NETWORK FOR TEXT-BASED VISUAL QUESTION ANSWERING (**ICME**)[[Paper]](https://arxiv.org/pdf/2212.08283.pdf)
+- <a name="SC-Net"></a> **[SC-Net]** TOWARDS ESCAPING FROM LANGUAGE BIAS AND OCR ERROR: SEMANTICS-CENTERED TEXT VISUAL QUESTION ANSWERING (**ICME**)[[Paper]](https://arxiv.org/pdf/2212.08283.pdf)
+- <a name="EKTVQA"></a> **[EKTVQA]** EKTVQA: Generalized Use of External Knowledge to Empower Scene Text in Text-VQA (**Access**)[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9807310)
+- <a name="TSF"></a> **[Two-stage fusion]** Two-stage Multimodality Fusion for
+High-performance Text-based Visual Question Answering (**ACCV**)[[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9807310)
 
 ### 2021
 - <a name="VisualMRC"></a> **[VisualMRC]** VisualMRC: Machine Reading Comprehension on Document Images (**AAAI**) [[Paper](https://arxiv.org/pdf/2101.11272.pdf)][[Project](https://github.com/nttmdlab-nlp/VisualMRC)]
@@ -69,12 +88,8 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 - <a name="Text-KVQA"></a>  **[Text-KVQA]** From Strings to Things: Knowledge-enabled VQA Modelthat can Read and Reason (**ICCV**) [[Paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Singh_From_Strings_to_Things_Knowledge-Enabled_VQA_Model_That_Can_Read_ICCV_2019_paper.pdf)]
 - <a name="OCR-VQA"></a> **[OCR-VQA]** OCR-VQA: Visual Question Answering by Reading Text in Images (**ICDAR**) [[Paper](https://anandmishra22.github.io/files/mishra-OCR-VQA.pdf)]
 
-
 ### Technical Reports
 
-- <a name="TAP"></a> **[TAP]** TAP: Text-Aware Pre-training for Text-VQA and Text-Caption [[Report](https://arxiv.org/abs/2012.04638)]
-- <a name="RUArt"></a> **[RUArt]** RUArt: A Novel Text-Centered Solution for Text-Based Visual Question Answering [[Report](https://arxiv.org/pdf/2010.12917.pdf)]
-- <a name="SMA"></a> **[SMA]** Structured Multimodal Attentions for TextVQA [[Report](https://arxiv.org/pdf/2006.00753.pdf)][[Slides](https://drive.google.com/file/d/1tJ9yK6U6fNkMAV-vLzWPzihaKB80KnsH/view)][[Video](https://www.youtube.com/watch?v=61abzUHhmfw&feature=youtu.be)]
 - <a name="DiagNet"></a> **[DiagNet]** DiagNet: Bridging Text and Image [[Report](http://www-personal.umich.edu/~syqian/2019/diagnet/diagnet.pdf)][[Code](https://github.com/w-yi/DiagNet)]
 - <a name="DCD-ZJU"></a> **[DCD_ZJU]** Winner of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1EZ8jrLTPLLKfwi0K28zq89tTe3ZZ-X8j/view)]
 - <a name="Schwail"></a> **[Schwail]** Runner-up of 2019 Text-VQA challenge [[Slides](https://drive.google.com/file/d/1xNiEHj6J42F3CFx6fYjS9KDTsYTqAlN0/view)]
@@ -93,18 +108,18 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 [[official leaderboard(2019)](https://evalai.cloudcv.org/web/challenges/challenge-page/244/leaderboard/810)]
 [[official leaderboard(2020)](https://evalai.cloudcv.org/web/challenges/challenge-page/551/leaderboard/1575)]
 
-| Y-C./J. | Methods| Acc. | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
-| ------- | ------ | ---- | ----- | -------| --- | ----- | ------ | ------ |
-| 2019--CVPR | [LoRRA](#LoRRA) | 26.64 | Faster R-CNN | GloVe | [Rosetta-ml](https://arxiv.org/pdf/1910.05085.pdf) | FastText | Classification | N |
-| 2019--N/A| [DCD_ZJU](#DCD-ZJU) | 31.44 | Faster R-CNN | BERT | Rosetta-ml | FastText | Classification | Y |
-| 2020--CVPR | [M4C](#M4C) | 40.46 | Faster R-CNN (ResNet-101)| BERT | Rosetta-en | FastText | Decoder | N |
-| 2020--Challenge | Xiangpeng | 40.77 |  |  | | | | |
-| 2020--Challenge | colab_buaa | 44.73 | | | | | | |
-| 2020--Challenge | CVMLP(SAM) | 44.80 | | | | | | |
-| 2020--Challenge | [NWPU_Adelaide_Team(SMA)](#SMA) | 45.51 | Faster R-CNN | BERT | [BDN](https://arxiv.org/pdf/1912.09629.pdf) | Graph Attention | Decoder | N |
-| 2020--ECCV| [SA-M4C](#SA-M4C) | 44.6* | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
-| 2020--arXiv| [TAP](#TAP) | 53.97* | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
-| 2022--arXiv| [TAG](#TAG) | 53.63 | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
+| Y-C./J.         | Methods                         | Acc.   | I. E.                      | Q. E. | OCR                                                                                                                 | O. E.           | Output         | Ensem. |
+| --------------- | ------------------------------- | ------ | -------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------- | --------------- | -------------- | ------ |
+| 2019--CVPR      | [LoRRA](#LoRRA)                 | 26.64  | Faster R-CNN               | GloVe | [Rosetta-ml](https://arxiv.org/pdf/1910.05085.pdf)                                                                  | FastText        | Classification | N      |
+| 2019--N/A       | [DCD_ZJU](#DCD-ZJU)             | 31.44  | Faster R-CNN               | BERT  | Rosetta-ml                                                                                                          | FastText        | Classification | Y      |
+| 2020--CVPR      | [M4C](#M4C)                     | 40.46  | Faster R-CNN (ResNet-101)  | BERT  | Rosetta-en                                                                                                          | FastText        | Decoder        | N      |
+| 2020--Challenge | Xiangpeng                       | 40.77  |                            |       |                                                                                                                     |                 |                |        |
+| 2020--Challenge | colab_buaa                      | 44.73  |                            |       |                                                                                                                     |                 |                |        |
+| 2020--Challenge | CVMLP(SAM)                      | 44.80  |                            |       |                                                                                                                     |                 |                |        |
+| 2020--Challenge | [NWPU_Adelaide_Team(SMA)](#SMA) | 45.51  | Faster R-CNN               | BERT  | [BDN](https://arxiv.org/pdf/1912.09629.pdf)                                                                         | Graph Attention | Decoder        | N      |
+| 2020--ECCV      | [SA-M4C](#SA-M4C)               | 44.6*  | Faster R-CNN (ResNext-152) | BERT  | [Google-OCR](https://cloud.google.com/products/ai/)                                                                 | FastText+PHOC   | Decoder        | N      |
+| 2020--arXiv     | [TAP](#TAP)                     | 53.97* | Faster R-CNN (ResNext-152) | BERT  | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC   | Decoder        | N      |
+| 2022--arXiv     | [TAG](#TAG)                     | 53.63  | Faster R-CNN (ResNext-152) | BERT  | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC   | Decoder        | N      |
 
 \* Using external data for training.
 
@@ -116,17 +131,17 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 **T2** : Weakly Contextualised Task
 **T3** : Open Dictionary
 
-| Y-C./J. | Methods| Acc. (T1/T2/T3) | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
-| ------- | ------ | --------------- | ----- | -------| --- | ----- | ------ | ------ |
-| 2020--CVPR | [M4C](#M4C) | na/na/0.4621 | Faster R-CNN (ResNet-101) | BERT | [Rosetta-en](https://arxiv.org/pdf/1910.05085.pdf) | FastText | Decoder | N |
-| 2020--Challenge | SMA | **0.5081**/**0.3104**/0.4659 | Faster | BERT | [BDN](https://arxiv.org/pdf/1912.09629.pdf) | Graph Attention | Decoder | N |
-| 2020--ECCV | [SA-M4C](#SA-M4C) | na/na/**0.5042** | Faster R-CNN (ResNext-152) | BERT | [Google-OCR](https://cloud.google.com/products/ai/) | FastText+PHOC | Decoder | N |
-| 2020--arXiv | [TAP](#TAP) | na/na/**0.5967** | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
-| 2022--arXiv | [TAG](#TAG) | na/na/**0.6019** | Faster R-CNN (ResNext-152) | BERT | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC | Decoder | N |
+| Y-C./J.         | Methods           | Acc. (T1/T2/T3)              | I. E.                      | Q. E. | OCR                                                                                                                 | O. E.           | Output  | Ensem. |
+| --------------- | ----------------- | ---------------------------- | -------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------- | --------------- | ------- | ------ |
+| 2020--CVPR      | [M4C](#M4C)       | na/na/0.4621                 | Faster R-CNN (ResNet-101)  | BERT  | [Rosetta-en](https://arxiv.org/pdf/1910.05085.pdf)                                                                  | FastText        | Decoder | N      |
+| 2020--Challenge | SMA               | **0.5081**/**0.3104**/0.4659 | Faster                     | BERT  | [BDN](https://arxiv.org/pdf/1912.09629.pdf)                                                                         | Graph Attention | Decoder | N      |
+| 2020--ECCV      | [SA-M4C](#SA-M4C) | na/na/**0.5042**             | Faster R-CNN (ResNext-152) | BERT  | [Google-OCR](https://cloud.google.com/products/ai/)                                                                 | FastText+PHOC   | Decoder | N      |
+| 2020--arXiv     | [TAP](#TAP)       | na/na/**0.5967**             | Faster R-CNN (ResNext-152) | BERT  | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC   | Decoder | N      |
+| 2022--arXiv     | [TAG](#TAG)       | na/na/**0.6019**             | Faster R-CNN (ResNext-152) | BERT  | [Microsoft-OCR](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text) | FastText+PHOC   | Decoder | N      |
 
 ### OCR-VQA
 
-| Y-C./J. | Methods| Acc. | I. E. |  Q. E. | OCR | O. E. | Output | Ensem. |
-| ------- | ------ | ---- | ----- | -------| --- | ----- | ------ | ------ |
-| 2020--CVPR | [M4C](#M4C) | **63.9** | Faster R-CNN | BERT | Rosetta-en | FastText | Decoder | N |
+| Y-C./J.    | Methods     | Acc.     | I. E.        | Q. E. | OCR        | O. E.    | Output  | Ensem. |
+| ---------- | ----------- | -------- | ------------ | ----- | ---------- | -------- | ------- | ------ |
+| 2020--CVPR | [M4C](#M4C) | **63.9** | Faster R-CNN | BERT  | Rosetta-en | FastText | Decoder | N      |
 
