@@ -6,7 +6,7 @@ Text related VQA is a fine-grained direction of the VQA task, which only focuses
 - **NewsVideoQA** dataset (WACV2023) [[Project](https://rrc.cvc.uab.es/?ch=24&com=introduction)][[Paper]](https://arxiv.org/pdf/2211.05588.pdf)
 - **ViteVQA** dataset (NeurIPS 2022) [[Project](https://github.com/bytedance/VTVQA)][[Paper]](https://openreview.net/pdf?id=yPZ7w29qSNK)
 - **VisualMRC** dataset (AAAI 2021) [[Project](https://github.com/nttmdlab-nlp/VisualMRC)][[Paper](https://arxiv.org/abs/2101.11272)]
-- **EST-VQA** dataset (CVPR 2020) [[Project](http://est-vqa.org/)][[Paper](https://arxiv.org/abs/2002.10215)]
+- **EST-VQA** dataset (CVPR 2020) [[Project](https://github.com/xinke-wang/EST-VQA)][[Paper](https://arxiv.org/abs/2002.10215)]
 - **DOC-VQA** dataset (CVPR Workshop 2020) [[Project](https://rrc.cvc.uab.es/?ch=17)][[Paper](https://arxiv.org/abs/2007.00398)]
 - **Text-VQA** dataset (CVPR 2019) [[Project](https://textvqa.org/dataset)][[Paper](https://arxiv.org/abs/1904.08920)]
 - **ST-VQA** dataset (ICCV 2019) [[Project](https://rrc.cvc.uab.es/?ch=11)][[Paper](https://arxiv.org/abs/1905.13648)]
